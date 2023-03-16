@@ -23,6 +23,6 @@ public class DemoTest {
         emp = mock(Employee.class);
         Mockito.when(emp.getEmpName ()).thenReturn(desg.getDesignation());
         String test1 = desg.getDesignation();
-        Assertions.assertEquals(emp.getEmpName(), test1);
+        Assertions.assertEquals("demo", test1);
     }
 }
